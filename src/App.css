@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+}
+
+.container
+{
+  background-color: antiquewhite;
+  width: 97vw;
+  height: 97vh;
+  border-radius: 1em;
+  padding: 2em;
+  display: flex;
+}
+
+.row
+{
+  border: 2px solid black;
+  border-radius: 1em;
+}
+
+.row-1
+{
+  flex: 1.5;
+}
+.row-2
+{
+  flex: 1.5;
+}
+.row-3
+{
+  flex: 2;
+}
