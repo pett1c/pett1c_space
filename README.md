@@ -1,2 +1,2 @@
-# pett1c_space
-new portfolio site
+#📡・ new portfolio site
+new SPA portfolio site with bento grid in glassmorphism style
