@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-export const InteractiveBubble = () => {
+export const useInteractiveBubble = () => {
     const interBubbleRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
