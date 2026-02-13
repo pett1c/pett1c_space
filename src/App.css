@@ -392,7 +392,7 @@ svg
 .myname
 {
   font-family: 'Gladolia';
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: antiquewhite;
 }
 
@@ -508,7 +508,6 @@ svg
 
 .musictext h1
 {
-  color: antiquewhite;
   font-family: 'Gladolia';
   font-size: 3em;
 }
@@ -581,4 +580,25 @@ svg
   height: 55%;
   object-fit: contain;
   border-radius: 0;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+h1 {
+  background: linear-gradient(to right, #ffd49c 50%, antiquewhite 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.3s ease, background-position 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  background-position: 0 0;
 }

@@ -55,8 +55,10 @@ function App() {
               <div className="infobox1">
                 <img id="avatar" src="/avatar.jpg" alt="my avatar btw"/>
                 <div className="myname">
-                  <h1>Ihor</h1>
-                  <h1>Tienietilov</h1>
+                  <h1>
+                    Ihor
+                    Tienietilov
+                  </h1>
                   <div className="placeholder"></div>
                 </div>
               </div>
