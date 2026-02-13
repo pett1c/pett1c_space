@@ -1,5 +1,6 @@
 import { useInteractiveBubble } from './interactiveBubble';
 import { RandomPosition } from './randomPosition';
+import AudioVisualizer from './AudioVisualizer';
 import './App.css'
 
 function App() {
@@ -175,7 +176,7 @@ function App() {
         <div className="row row-3">
           <div className="col col-1">
             <div className="col-box-big">
-              {/*VISUALIZER PLACEHOLDER*/}
+              <AudioVisualizer />
             </div>
             <div className="col-box">
               <div className="contacticons">
