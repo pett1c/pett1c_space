@@ -33,6 +33,16 @@ body{
   --blending: hard-light;
 }
 
+@font-face {
+  font-family: 'Gladolia';
+  src: url(/fonts/gladolia.ttf);
+}
+
+@font-face {
+  font-family: 'Transcity';
+  src: url(/fonts/transcity.ttf);
+}
+
 
 /* BACKGROUND */
 @keyframes moveInCircle
@@ -84,7 +94,7 @@ body{
   background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 svg
@@ -355,6 +365,195 @@ svg
 .col-box > *, .col-box-big > * {
   position: relative;
   z-index: 1;
+}
+
+
+/* CONTENT */
+.infobox1
+{
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+#avatar
+{
+  width: 40%;
+  height: 40%;
+  border: antiquewhite 2px solid;
+  border-radius: 10%;
+}
+
+.myname
+{
+  font-family: 'Gladolia';
+  font-size: 0.85em;
+  color: antiquewhite;
+}
+
+.placeholder
+{
+  border: 1px red solid;
+  height: 30%;
+}
+
+.infobox2
+{
+  font-size: 1.1em;
+  font-family: 'Gladolia';
+  font-style: italic;
+  color: antiquewhite;
+  padding: 1em;
+}
+
+
+.projectbox1
+{
+  font-family: 'Gladolia';
+  font-size: 1.1em;
+  text-align: center;
+  padding: 0.5em;
+  color: antiquewhite;
+}
+
+.projectbox2
+{
+  border: 1px solid red;
+  padding: 0.5em;
+  height: 57%;
+}
+
+.row-2 .projectbox2
+{
+  height: 58%;
+}
+
+.projectbox3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  margin: 0.5em;
+}
+
+.normalicon
+{
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 0.8em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.normalicon:hover
+{
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.15);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.normalicon img
+{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+
+.musicbox
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  gap: 1em;
+  align-items: center;
+}
+
+.musicbox > a
+{
+  height: 100%;
+  max-height: 8rem;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+}
+
+.musicbox img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+  display: block;
+}
+
+.musictext
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.musictext h1
+{
+  color: antiquewhite;
+  font-family: 'Gladolia';
+  font-size: 3em;
+}
+
+.musictext p
+{
+  color: antiquewhite;
+  font-family: 'Gladolia';
+  font-size: 1em;
+}
+
+.contacticons
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 1.5em;
+  gap: 1em;
+}
+
+.contacticons a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 75%;
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contacticons a:hover
+{
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.15);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.contacticons img
+{
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+  border-radius: 0;
 }
 
 img {

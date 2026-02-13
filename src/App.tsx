@@ -53,28 +53,15 @@ function App() {
           <div className="col col-1">
             <div className="col-box">
               <div className="infobox1">
-                <img src="/avatar.jpg" alt="my avatar btw"/>
+                <img id="avatar" src="/avatar.jpg" alt="my avatar btw"/>
                 <div className="myname">
                   <h1>Ihor</h1>
                   <h1>Tienietilov</h1>
+                  <div className="placeholder"></div>
                 </div>
               </div>
               <div className="infobox2">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut nulla error qui quo tempora dolorem earum. Expedita deserunt possimus quos sapiente.</p>
-              </div>
-              <div className="infobox3">
-                <div className="abouticon">
-                  <img src="" alt="flewe" />
-                </div>
-                <div className="abouticon">
-                  <img src="" alt="music visualizer" />
-                </div>
-                <div className="abouticon">
-                  <img src="" alt="icontale" />
-                </div>
-                <div className="abouticon">
-                  <img src="" alt="IDPA" />
-                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut nulla error qui quo tempora dolorem earum. Expedita deserunt possimus quos sapiente. Expedita deserunt possimus quos sapiente. Expedita deserunt possimus quos sapiente. Expedita deserunt possimus quos sapiente.</p>
               </div>
             </div>
           </div>
@@ -84,7 +71,7 @@ function App() {
                 <h1>flewe</h1>
               </div>
               <div className="projectbox2">
-                <img src="" alt="flewe gif" />
+                <a href="http://github.com/pett1c/" target="_blank"><img src="" alt="flewe gif" /></a>
               </div>
               <div className="projectbox3">
                 <div className="normalicon">
@@ -97,10 +84,10 @@ function App() {
             </div>
             <div className="col-box">
               <div className="projectbox1">
-                <h1>music visualizer</h1>
+                <h1>music</h1>
               </div>
               <div className="projectbox2">
-                <img src="" alt="visualizer gif" />
+                <a href="http://github.com/pett1c/" target="_blank"><img src="" alt="visualizer gif" /></a>
               </div>
               <div className="projectbox3">
                 <div className="normalicon">
@@ -120,7 +107,7 @@ function App() {
               <div className="musicbox">
                 <a href="https://soundcloud.com/fr31tagabend" target="_blank"><img src="/fr31tagabend.jpg" alt="fr31tagabend avatar"/></a>
                 <div className="musictext">
-                  <h1>fr31tagabend</h1>
+                  <h1>freitagabend</h1>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quo dignissimos distinctio unde, optio perspiciatis nihil adipisci magni.</p>
                 </div>
               </div>
@@ -141,7 +128,7 @@ function App() {
                 <h1>icontale</h1>
               </div>
               <div className="projectbox2">
-                <img src="" alt="icontale gif" />
+                <a href="http://github.com/pett1c/" target="_blank"><img src="" alt="icontale gif" /></a>
               </div>
               <div className="projectbox3">
                 <div className="normalicon">
@@ -160,17 +147,17 @@ function App() {
             </div>
             <div className="col-box">
               <div className="projectbox1">
-                <h1>wirtschaftsquiz</h1>
+                <h1>quiz</h1>
               </div>
               <div className="projectbox2">
-                <img src="" alt="wirtschaftsquiz gif" />
+                <a href="http://github.com/pett1c/" target="_blank"><img src="" alt="wirtschaftsquiz gif" /></a>
               </div>
               <div className="projectbox3">
                 <div className="normalicon">
-                  <img src="/html.svg" alt="html" />
+                  <img src="/html5.svg" alt="html" />
                 </div>
                 <div className="normalicon">
-                  <img src="/css.svg" alt="css" />
+                  <img src="/css3.svg" alt="css" />
                 </div>
                 <div className="normalicon">
                   <img src="/javascript.svg" alt="javascript" />
@@ -190,12 +177,12 @@ function App() {
             </div>
             <div className="col-box">
               <div className="contacticons">
-                <img src="/linkedin.svg" alt="linkedin" />
-                <img src="/github.svg" alt="github" />
-                <img src="/instagram.svg" alt="instagram" />
-                <img src="/gmail.svg" alt="gmail" />
-                <img src="/telegram.svg" alt="telegram" />
-                <img src="/discord.svg" alt="discord" />
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/linkedin.svg" alt="linkedin" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/github.svg" alt="github" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/instagram.svg" alt="instagram" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/gmail.svg" alt="gmail" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/telegram.svg" alt="telegram" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/discord.svg" alt="discord" /></a>
               </div>
             </div>
           </div>
