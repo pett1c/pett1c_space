@@ -43,6 +43,11 @@ body{
   src: url(/fonts/transcity.ttf);
 }
 
+@font-face {
+  font-family: 'Regina';
+  src: url(/fonts/regina.otf);
+}
+
 
 /* BACKGROUND */
 @keyframes moveInCircle
@@ -399,9 +404,8 @@ svg
 
 .infobox2
 {
-  font-size: 1.1em;
-  font-family: 'Gladolia';
-  font-style: italic;
+  font-size: 1.2em;
+  font-family: 'Regina';
   color: antiquewhite;
   padding: 1em;
 }
@@ -512,8 +516,8 @@ svg
 .musictext p
 {
   color: antiquewhite;
-  font-family: 'Gladolia';
-  font-size: 1em;
+  font-family: 'Regina';
+  font-size: 1.2em;
 }
 
 .contacticons
@@ -538,26 +542,43 @@ svg
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
 }
 
 .contacticons a:hover
 {
-  background: rgba(255, 255, 255, 0.2);
   transform: scale(1.15);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+.contacticons a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 1em;
+  transform: scale(0);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 0;
+}
+
+.contacticons a:hover::before {
+  transform: scale(1);
+}
+
+.contacticons .linkedin::before { background: rgb(0,118,178); }
+.contacticons .github::before { background: linear-gradient(to bottom right, rgb(44, 41, 41), #33373b); }
+.contacticons .instagram::before { background: linear-gradient(to bottom right, rgb(245,160,78), rgb(199,51,150)); }
+.contacticons .gmail::before { background: rgb(255,255,255); }
+.contacticons .telegram::before { background: linear-gradient(to bottom right, rgb(13,139,202), rgb(53,185,252)); }
+.contacticons .discord::before { background: linear-gradient(to bottom right, #33373b, #0C0C0D); }
+
 .contacticons img
 {
+  position: relative;
+  z-index: 1;
   width: 55%;
   height: 55%;
   object-fit: contain;
   border-radius: 0;
-}
-
-img {
-  width: 15%;
-  height: 15%;
-  border-radius: 50%;
 }

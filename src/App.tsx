@@ -177,12 +177,12 @@ function App() {
             </div>
             <div className="col-box">
               <div className="contacticons">
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/linkedin.svg" alt="linkedin" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/github.svg" alt="github" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/instagram.svg" alt="instagram" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/gmail.svg" alt="gmail" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/telegram.svg" alt="telegram" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src="/discord.svg" alt="discord" /></a>
+                <a className="linkedin" href="#" target="_blank" rel="noopener noreferrer"><img src="/linkedin.svg" alt="linkedin" /></a>
+                <a className="github" href="#" target="_blank" rel="noopener noreferrer"><img src="/github.svg" alt="github" /></a>
+                <a className="instagram" href="#" target="_blank" rel="noopener noreferrer"><img src="/instagram.svg" alt="instagram" /></a>
+                <a className="gmail" href="#" target="_blank" rel="noopener noreferrer"><img src="/gmail.svg" alt="gmail" /></a>
+                <a className="telegram" href="#" target="_blank" rel="noopener noreferrer"><img src="/telegram.svg" alt="telegram" /></a>
+                <a className="discord" href="#" target="_blank" rel="noopener noreferrer"><img src="/discord.svg" alt="discord" /></a>
               </div>
             </div>
           </div>
